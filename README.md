@@ -65,7 +65,7 @@ Auxiliary evidence is not a calibrated calving probability; a product direction 
 |---|---|
 | [cowmata](https://github.com/zxq309/cowmata) | System architecture, roadmap and demos |
 | [cowmata-tailring](https://github.com/zxq309/cowmata-tailring) | Behavior/event training, inference and evaluation |
-| [cowmata-risk](https://github.com/zxq309/cowmata-risk) | Decision research; private, authorized access |
+| [cowmata-risk](https://github.com/zxq309/cowmata-risk) | Decision research; public repository |
 | [cattle-tail-ring-annotator](https://github.com/zxq309/cattle-tail-ring-annotator) | Annotation and human review |
 
 ## Current system architecture
