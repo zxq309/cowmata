@@ -19,7 +19,7 @@
 
 ## Latest update
 
-**2026-09-07** — Bilingual project portal, relocated product assets, current system diagrams, offline interactive demo and component-demo runner. See [CHANGELOG.md](CHANGELOG.md). Documentation dates are separate from component release dates.
+**2026-09-07** — Bilingual project portal, relocated product assets, current system diagrams, online/offline interactive demo and component-demo runner. See [CHANGELOG.md](CHANGELOG.md). Documentation dates are separate from component release dates.
 
 ## What this project does
 
@@ -41,6 +41,8 @@ COWMATA connects tail-mounted sensing, synchronized video review, behavior recog
 **Available:** annotation workstation, recognition baseline, temperature/activity evidence modules. **Next:** behavior-to-decision adapter, calibrated fusion and unified alerts. The private risk repository is not required to use the public tools.
 
 ## Explore the system demo
+
+**[Open the live interactive demo →](https://zxq309.github.io/cowmata/demo/?lang=en)** — no installation required. The same page also works offline.
 
 ![Offline system demo](assets/screenshots/system-demo-en.png)
 

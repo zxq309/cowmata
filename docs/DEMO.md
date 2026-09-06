@@ -1,5 +1,7 @@
 # System demo guide
 
+[Open the live English demo](https://zxq309.github.io/cowmata/demo/?lang=en). The same files work offline as described below.
+
 ## 1. Offline visual walkthrough
 
 Open `demo/index.html` in a browser after cloning. No installation, internet request or backend is needed. Switch English/Chinese, select a processing stage, change the scenario and move the time cursor.
