@@ -1,5 +1,12 @@
 # Changelog
 
+## Product and field showcase — 2026-09-07
+
+- Corrected 张向清 and added his postdoctoral affiliation at Northwestern Polytechnical University in both languages.
+- Replaced the landing concept image with original field photography; centered standalone images and the company logo.
+- Added a bilingual responsive product/field gallery, original embedded calving video, and a nine-asset SHA-256 provenance manifest from the owner-provided presentation.
+- Kept presentation-era product interfaces distinct from runnable repository demos.
+
 ## Repository responsibility cleanup — 2026-09-07
 
 - Centralized product, company, team, application and project-progress information in the bilingual system overview.

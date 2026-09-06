@@ -1,0 +1,70 @@
+{
+  "source": "COWMATA_衢州人才项目20260826.pptx",
+  "extracted_on": "2026-09-07",
+  "transformation": "None; original embedded bytes preserved",
+  "assets": [
+    {
+      "file": "assets/showcase/farm-wearing.jpeg",
+      "ppt_entry": "ppt/media/image1.jpeg",
+      "slide": 1,
+      "bytes": 622795,
+      "sha256": "d6d7add5aae5bbefca8df584e84dd228c467c7269132fba0e8be261f90f77449"
+    },
+    {
+      "file": "assets/showcase/veterinary-edition.jpeg",
+      "ppt_entry": "ppt/media/image70.jpeg",
+      "slide": 11,
+      "bytes": 127055,
+      "sha256": "3dc09b440a40f1c3fab750e9c0932ecf7856bcca0f3260237a117aa5157b083a"
+    },
+    {
+      "file": "assets/showcase/farm-edition.jpeg",
+      "ppt_entry": "ppt/media/image71.jpeg",
+      "slide": 11,
+      "bytes": 118134,
+      "sha256": "a589ca2538c5eef3549d4752f1df9b0c434ef9827c8f450f86cdb2ebc4be796e"
+    },
+    {
+      "file": "assets/showcase/product-packaging.png",
+      "ppt_entry": "ppt/media/image72.png",
+      "slide": 11,
+      "bytes": 2315148,
+      "sha256": "8788333fbb0eff0578e7a7ccf5338026a98edbcc4177cb4cb92837084607b812"
+    },
+    {
+      "file": "assets/showcase/annotation-workstation.png",
+      "ppt_entry": "ppt/media/image58.png",
+      "slide": 7,
+      "bytes": 1418451,
+      "sha256": "0c0fba26007dd0fb6352bbcb0c77e366e4255115b5b33835a8452f37923b7ce7"
+    },
+    {
+      "file": "assets/showcase/management-interface.jpeg",
+      "ppt_entry": "ppt/media/image76.jpeg",
+      "slide": 13,
+      "bytes": 86257,
+      "sha256": "aeda624285855dedccc80f455dd616cda24047de0123396aac3c2cda5f169308"
+    },
+    {
+      "file": "assets/showcase/farm-observation.png",
+      "ppt_entry": "ppt/media/image86.png",
+      "slide": 15,
+      "bytes": 17632229,
+      "sha256": "457e1d49d50b487b29fc933fa3d3cda44312bfd6271825b70d115a4fa926cd31"
+    },
+    {
+      "file": "assets/showcase/calving-poster.png",
+      "ppt_entry": "ppt/media/image10.png",
+      "slide": 2,
+      "bytes": 3574337,
+      "sha256": "d854c49510ff7ef93e1344191d811e1fe5c1f80798eb5962089d8c679ed22330"
+    },
+    {
+      "file": "assets/showcase/calving-field.mp4",
+      "ppt_entry": "ppt/media/media1.mp4",
+      "slide": 2,
+      "bytes": 42318355,
+      "sha256": "380c3c9dc35856e86f22c7d9f21f6e00b25682b83918b19301bd447f74cc9cca"
+    }
+  ]
+}

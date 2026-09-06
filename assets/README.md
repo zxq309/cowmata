@@ -10,3 +10,7 @@ Official COWMATA brand/product assets and the conceptual hero were relocated fro
 - `screenshots/system-demo.png` and `screenshots/system-demo-en.png` are Chinese/English screenshots of the bundled illustrative demo, not farm observations.
 
 Company brand and product assets remain proprietary under [NOTICE](../NOTICE).
+
+## Presentation media — 2026-09-07
+
+Original embedded media extracted from the owner-provided `COWMATA_衢州人才项目20260826.pptx`. [Manifest](showcase/manifest.json) records slide numbers, ZIP entries, sizes and SHA-256. Images and video are byte-for-byte originals. The bilingual [gallery](../showcase/index.html) explains field photography, product artwork, historical interfaces and the calving clip separately. These assets remain proprietary under NOTICE; presentation claims are not evidence of validated algorithm performance.
