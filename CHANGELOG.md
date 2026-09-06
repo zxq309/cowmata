@@ -4,6 +4,7 @@
 
 - Added full bilingual landing pages, brand/product gallery, current architecture and an offline system demo.
 - Added a runner for real component demos and documentation checks.
+- Added a static hosting entry point for the same offline-capable system explorer.
 - Relocated overall art from cowmata-tailring with SHA-256 provenance.
 
 
