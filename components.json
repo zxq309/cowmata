@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-09-07",
+  "system_repository": "https://github.com/zxq309/cowmata",
+  "integration_status": "component_baselines_only",
+  "end_to_end_compatibility_verified": false,
+  "components": [
+    {
+      "repository": "zxq309/cowmata-tailring",
+      "url": "https://github.com/zxq309/cowmata-tailring",
+      "role": "behavior_event_recognition",
+      "commit": "c3bb8c748521017f8a9278d2db79c7d3fae35960",
+      "package_version": "0.3.1",
+      "private": false
+    },
+    {
+      "repository": "zxq309/cowmata-risk",
+      "url": "https://github.com/zxq309/cowmata-risk",
+      "role": "risk_decision_research",
+      "commit": "66e152c0df47f93b602e9d78ce833349d4f8aab6",
+      "package_version": null,
+      "private": true,
+      "module_versions": {
+        "cowmata-temperature-aux": "0.6.0",
+        "cowmata-activity-aux": "1.0.0"
+      }
+    },
+    {
+      "repository": "zxq309/cattle-tail-ring-annotator",
+      "url": "https://github.com/zxq309/cattle-tail-ring-annotator",
+      "role": "annotation_review",
+      "commit": "6f31bb9ca82aced415656b83ede0dac9b3f14535",
+      "package_version": "2.2.0",
+      "private": false
+    }
+  ]
+}
