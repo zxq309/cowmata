@@ -1,5 +1,9 @@
 # Changelog
 
+## Repository responsibility cleanup — 2026-09-07
+
+- Centralized product, company, team, application and project-progress information in the bilingual system overview.
+
 ## Documentation presentation — 2026-09-07
 
 - Added full bilingual landing pages, brand/product gallery, current architecture and an offline system demo.

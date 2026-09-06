@@ -9,7 +9,7 @@
       "repository": "zxq309/cowmata-tailring",
       "url": "https://github.com/zxq309/cowmata-tailring",
       "role": "behavior_event_recognition",
-      "commit": "66924b0dfd7149f5a4fb46327ab2db1ef95db64d",
+      "commit": "00e5660fbcbdbea01e79eb5f9f589ae52374ab2b",
       "package_version": "0.3.1",
       "private": false
     },
@@ -17,7 +17,7 @@
       "repository": "zxq309/cowmata-risk",
       "url": "https://github.com/zxq309/cowmata-risk",
       "role": "risk_decision_research",
-      "commit": "4a797552c86d840919e13254624c79e5f0ba744c",
+      "commit": "ecf72bca8a03cb455443031fcf510f4a768ab17b",
       "package_version": null,
       "private": true,
       "module_versions": {
@@ -29,7 +29,7 @@
       "repository": "zxq309/cattle-tail-ring-annotator",
       "url": "https://github.com/zxq309/cattle-tail-ring-annotator",
       "role": "annotation_review",
-      "commit": "1281a6d644b75ac2c0cb8926202ac42b2804c9e2",
+      "commit": "4f7fedb86acdaa16961bbbebd50d89c24934beb1",
       "package_version": "2.2.0",
       "private": false
     }
