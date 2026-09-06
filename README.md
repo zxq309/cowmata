@@ -1,41 +1,73 @@
-# COWMATA · 牛只繁殖与健康监测
+<div align="center">
+<a href="https://www.cowmata.com/"><img src="assets/brand/cowmata-logo.svg" width="360" alt="COWMATA"></a>
 
-COWMATA 面向尾环多模态感知、牛只行为识别和繁殖与健康风险监测。本仓是总体项目入口，维护系统架构、路线图、组件职责和集成版本。
+# COWMATA · Cattle Monitoring
 
-## 四个仓库
+**From tail-ring sensing to reviewable behavior and risk evidence.**
 
-| 仓库 | 职责 | 当前状态 |
-|---|---|---|
-| [cowmata](https://github.com/zxq309/cowmata) | 总体架构、路线图、版本与集成说明 | 本仓 |
-| [cowmata-tailring](https://github.com/zxq309/cowmata-tailring) | 行为与事件识别的训练、推理、评估 | 已有算法基线 |
-| [cowmata-risk](https://github.com/zxq309/cowmata-risk) | 辅助证据、长期风险与预警决策 | 私有；产犊实验中，温度/活动量模块已接入 |
-| [cattle-tail-ring-annotator](https://github.com/zxq309/cattle-tail-ring-annotator) | 视频与传感器标注、候选复核、导出 | 独立迭代 |
+[![CI](https://github.com/zxq309/cowmata/actions/workflows/docs.yml/badge.svg)](https://github.com/zxq309/cowmata/actions/workflows/docs.yml)
+![Documentation updated](https://img.shields.io/badge/docs-2026--09--07-0A7EA4)
+![Scope](https://img.shields.io/badge/COWMATA-project-92C142)
 
-私有决策仓仅授权成员可访问。总体项目愿景包含发情、产犊、妊娠与健康风险；这不代表上述能力均已实现或经独立验证。
+[English](README.md) · [简体中文](README.zh-CN.md) · [COWMATA](https://github.com/zxq309/cowmata)
 
-## 系统关系
+</div>
 
-```mermaid
-flowchart LR
-  S[连续传感器数据] --> B[行为与事件识别]
-  V[同步视频与传感器] --> A[标注工具]
-  A -->|确认标签| B
-  B -->|候选复核| A
-  B -.->|待适配：行为时间线| R[综合决策]
-  S -->|温度与活动量证据| R
-  H[个体历史与繁殖档案] -.->|待接入| R
-  R -.->|待实现与验证| O[融合风险与牧场告警]
+![COWMATA project concept](assets/figures/cowmata-ai-pipeline-hero.png)
+
+*Concept illustration, not a deployed application screenshot.*
+
+## Latest update
+
+**2026-09-07** — Bilingual project portal, relocated product assets, current system diagrams, offline interactive demo and component-demo runner. See [CHANGELOG.md](CHANGELOG.md). Documentation dates are separate from component release dates.
+
+## What this project does
+
+COWMATA connects tail-mounted sensing, synchronized video review, behavior recognition and decision research for cattle reproduction and health. Calving is the current experimental priority. Estrus, pregnancy and health monitoring remain broader project directions; each needs its own data and validation.
+
+## Four repositories, one project
+
+| Repository | Responsibility |
+|---|---|
+| [cowmata](https://github.com/zxq309/cowmata) | System architecture, roadmap and demos |
+| [cowmata-tailring](https://github.com/zxq309/cowmata-tailring) | Behavior/event training, inference and evaluation |
+| [cowmata-risk](https://github.com/zxq309/cowmata-risk) | Decision research; private, authorized access |
+| [cattle-tail-ring-annotator](https://github.com/zxq309/cattle-tail-ring-annotator) | Annotation and human review |
+
+## Current system architecture
+
+![System architecture](assets/figures/system-en.svg)
+
+**Available:** annotation workstation, recognition baseline, temperature/activity evidence modules. **Next:** behavior-to-decision adapter, calibrated fusion and unified alerts. The private risk repository is not required to use the public tools.
+
+## Explore the system demo
+
+![Offline system demo](assets/screenshots/system-demo-en.png)
+
+Clone this repository and open **[demo/index.html](demo/index.html)** in a browser. It works offline, switches between English and Chinese, and shows normal, changing-evidence and missing-data scenarios. All displayed values are illustrative; no recognition or risk model runs in this page.
+
+```sh
+git clone https://github.com/zxq309/cowmata.git
+cd cowmata
+python -m http.server 8000 --bind 127.0.0.1
+# Open http://127.0.0.1:8000/demo/
 ```
 
-当前可以分别运行标注工具、识别基线与两个决策辅助模块；完整端到端预警部署尚未建立。
+For **actual component execution**, see [the demo guide](docs/DEMO.md). The runner invokes the recognition demo and optionally the authorized risk demo, records component commits and returns failure if a selected component fails. It does not pretend that the components form a validated fused pipeline.
 
-## 从哪里开始
+## Hardware and application context
 
-- 做标注：进入标注仓，按其安装与导出说明操作。
-- 训练或评估行为模型：进入识别仓，按其数据合同和独立牛评估流程操作。
-- 做产犊实验：授权成员进入决策仓，运行两模块测试与合成数据示例。
-- 查看整体安排：[路线图](docs/ROADMAP.md)、[维护约定](docs/MAINTENANCE.md)。
-- 查看组件基线：[components.json](components.json)；它记录来源版本，不等于已验证兼容组合。
-- 查看跨仓接口：[协议提案](docs/INTERFACES.md)。
+<table><tr><td align="center" width="50%"><img src="assets/product/tail-sensor-farm.png" width="300" alt="Tail sensor farm edition"><br>Farm edition</td><td align="center" width="50%"><img src="assets/product/tail-sensor-vet.png" width="300" alt="Tail sensor veterinary edition"><br>Veterinary edition</td></tr></table>
 
-本仓引用组件，不复制其源码、模型或原始实验数据。暂不引入子模块和微服务部署；组件通过版本化包与数据格式衔接。
+Official company product imagery, relocated from the algorithm repository. Product context is broader than the currently validated software scope.
+
+## Documentation and reproducibility
+
+- [Roadmap](docs/ROADMAP.en.md) · [Interface proposal](docs/INTERFACES.en.md)
+- [Pinned component commits](components.json) · [Maintenance](docs/MAINTENANCE.en.md)
+- [Demo guide](docs/DEMO.md) · [Asset provenance](assets/README.md)
+- [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Notice](NOTICE)
+
+## Team
+
+Developed by the COWMATA team at Yangling Yuanshangyuan Intelligent Technology Co., Ltd., with research collaboration from Yan'an University. Xiangqing Zhang · Yalong Zhang · Tengyu Jiao · Yachen Zhao.

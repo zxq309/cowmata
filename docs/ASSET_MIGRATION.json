@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-07",
+  "source_commit": "c3bb8c748521017f8a9278d2db79c7d3fae35960",
+  "files": [
+    {
+      "from": "cowmata-tailring/assets/product/tail-sensor-farm.png",
+      "to": "cowmata/assets/product/tail-sensor-farm.png",
+      "sha256": "8cc7448d42324484c291e835323af675643a0b84475b9336f90bdeaeeacd5816"
+    },
+    {
+      "from": "cowmata-tailring/assets/product/tail-sensor-vet.png",
+      "to": "cowmata/assets/product/tail-sensor-vet.png",
+      "sha256": "ab39cdce84f17be3e6f9725444c13561f93491685c0dcec3da7a625b41091bf2"
+    },
+    {
+      "from": "cowmata-tailring/assets/figures/cowmata-ai-pipeline-hero.png",
+      "to": "cowmata/assets/figures/cowmata-ai-pipeline-hero.png",
+      "sha256": "68ae77c96ff4276645a34e63d9a11402c72e222da8eaf47d72aa76cf287e05c3"
+    },
+    {
+      "from": "cowmata-tailring/assets/figures/cowmata-framework-en.png",
+      "to": "cowmata/assets/figures/cowmata-framework-en.png",
+      "sha256": "f7082bcea404df4d2cc267fb358e847fc2424517d870c045ab7a53c06faf1160"
+    },
+    {
+      "from": "cowmata-tailring/assets/figures/cowmata-framework-zh.png",
+      "to": "cowmata/assets/figures/cowmata-framework-zh.png",
+      "sha256": "fb35d46d4fdc66170d80099850472cd4c1e7bc13e7b4c407ac2397e78cf3be93"
+    }
+  ]
+}
