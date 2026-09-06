@@ -65,7 +65,7 @@ COWMATA 是杨凌园上园智能科技有限公司研发的智能牛尾环与配
 |---|---|
 | [cowmata](https://github.com/zxq309/cowmata) | 总体架构、路线图与演示 |
 | [cowmata-tailring](https://github.com/zxq309/cowmata-tailring) | 行为事件训练、推理与评估 |
-| [cowmata-risk](https://github.com/zxq309/cowmata-risk) | 综合决策研究；私有，需授权访问 |
+| [cowmata-risk](https://github.com/zxq309/cowmata-risk) | 综合决策研究；公开仓库 |
 | [cattle-tail-ring-annotator](https://github.com/zxq309/cattle-tail-ring-annotator) | 人工标注与候选复核 |
 
 ## 当前总体框架
